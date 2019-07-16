@@ -6,7 +6,7 @@ It can be easily reproduced using Docker containers.
 
 This bug is present in Python 3.6.8 (both tested with Nuitka Factory on 2019-07-15)
 
-###How to trigger the bug
+##How to trigger the bug
 
 In this case, we try to connect to http://10.10.10.10 and then timeout. When compiled with Nuitka, it triggers the RuntimeError bug.
 
