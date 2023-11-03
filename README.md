@@ -1,3 +1,5 @@
+# This repo has been archived.
+
 Issue tracked at [Nuitka/#165](https://github.com/Nuitka/Nuitka/issues/165)
 
 This repo illustrates a potential bug when using Nuitka with asyncio coroutines. In some cases, Exceptions are returned as `RuntimeError: cannot reuse already awaited coroutine` instead of the correct Exception. This is very similar to bug [Issue 404](http://bugs.nuitka.net/issue404) fixed in 0.5.32 and bug [Nuitka/#213](https://github.com/Nuitka/Nuitka/issues/213).
